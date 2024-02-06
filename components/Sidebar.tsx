@@ -9,7 +9,7 @@ import Image from "next/image";
 import logo from "../public/due-icon.svg";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-const sidebarLinks = [
+export const sidebarLinks = [
   {
     title: "dashboard",
     href: "/",
