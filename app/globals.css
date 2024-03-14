@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes ripple-effect {
+  to {
+    width: 200px;
+    transform: scale(10);
+    opacity: 0;
+  }
+}
