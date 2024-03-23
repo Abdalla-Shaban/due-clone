@@ -61,7 +61,7 @@ const Accordion = ({ pathname }: { pathname: string }) => {
               </Link>
             </RippleEffect>
           ))}
-          <RippleEffect>
+          <RippleEffect style="w-full">
             <Link
               className={`flex items-center gap-3 text-sm capitalize py-3 pl-6`}
               href={`/projects`}
